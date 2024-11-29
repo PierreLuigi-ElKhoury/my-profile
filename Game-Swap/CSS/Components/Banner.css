@@ -1,0 +1,31 @@
+.header {
+    background-color: #191970;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-logo {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px;
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #191970;
+    border: 2px solid #191970;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #000080;
+    color: white;
+}

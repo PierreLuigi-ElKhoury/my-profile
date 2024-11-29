@@ -1,0 +1,37 @@
+/* Import component-specific styles */
+@import url("./Components/Avatar.css");
+@import url("./Components/Banner.css");
+@import url("./Components/Button.css");
+@import url("./Components/Card.css");
+@import url("./Components/container.css");
+
+/* Global styles */
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: #191970;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000080;
+    text-decoration: underline;
+}
